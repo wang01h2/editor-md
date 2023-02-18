@@ -1,0 +1,33 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.header {
+    height: 7vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mx-3 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.px-3 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.download-btn {
+    cursor: pointer;
+    user-select: none;
+}
+.print-body {
+    padding: 20px;
+}
+@media print {
+    @page {
+        margin: 20px; // 可以控制打印布局（四周边距）
+    }
+}
