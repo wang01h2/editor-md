@@ -1,4 +1,4 @@
-export default `# 小明
+const initContent = `# 小明
 
 开发工程师
 
@@ -23,3 +23,4 @@ export default `# 小明
 
 - xxxxxxx *(2014 – 2017)*
 `
+export default initContent
