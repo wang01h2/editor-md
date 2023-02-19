@@ -1,5 +1,5 @@
 import './App.css'
-import '@toast-ui/editor/dist/toastui-editor.css';
+import './toastui-editor.css';
 import {Editor} from "@toast-ui/react-editor";
 import React, {useRef} from "react";
 import ReactToPrint from 'react-to-print';
