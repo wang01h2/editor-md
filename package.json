@@ -1,7 +1,7 @@
 {
   "name": "editor-md",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "/editor-md/",
   "dependencies": {
     "react": "^17.0.1",
